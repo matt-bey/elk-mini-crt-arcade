@@ -15,15 +15,14 @@ bash projects/mini-crt-arcade/scripts/setup.sh
 
 Then reboot the Pi. See SOFTWARE.md for full details.
 
-## Current Status
+## Features
 
-- ✅ Pi Zero W running RetroPie with NES ROMs
-- ✅ Waveshare 3.5inch HDMI LCD (E) — 640×480, HDMI audio, powered via pogo pins
-- ✅ PAM8403 amplifier + 2x speakers wired and working
-- ✅ Full audio chain: Pi → HDMI → display 3.5mm → PAM8403 → speakers
-- ✅ v1 cardboard enclosure — prototype self-contained and working
-- ✅ Velleman VMP400 TFT retained as backup display
-- ✅ SD card backup taken
+- Retro gaming via RetroPie — NES ROMs confirmed working; other cores available
+- 3.5" HDMI display (Waveshare) at native 640×480 4:3 — no letterboxing for NES content
+- Built-in stereo speakers through a PAM8403 amplifier with a front-panel volume knob
+- USB controller input (NES-style)
+- Swappable display path: HDMI (primary) or SPI TFT (Velleman VMP400 backup)
+- Cardboard v1 enclosure; 3D-printed v2 in design (see ENCLOSURE.md)
 
 ## Docs
 
